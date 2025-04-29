@@ -1,0 +1,58 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --col-red : #E65F78;
+  --col-blk: #1F1F1F;
+  --text-white: #F7F7F7;
+}
+
+.resume-btn {
+  background: var(--col-red) !important;
+}
+
+.navbar {
+  background: var(--col-blk) !important;
+}
+
+.nav-link {
+  color: var(--text-white) !important;
+}
+
+.navbar-brand {
+  color: var(--col-red) !important;
+}
+
+.navbar-nav {
+  gap: 30px;
+}
+
+.banner-section {
+  height: 900px;
+  background: var(--col-blk);
+}
+
+.content-box h2, .content-box p {
+  color: var(--text-white);
+}
+
+.content-box h2 span {
+  color: var(--col-red);
+}
+
+.banner-box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_img {
+    height: 370px !important;
+    width: 370px;
+    object-fit: cover;
+}
