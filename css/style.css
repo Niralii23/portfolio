@@ -3,12 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--text-white);
 }
 
 :root {
   --col-red : #E65F78;
   --col-blk: #1F1F1F;
   --text-white: #F7F7F7;
+  --col-white: #FFFFFF;
+  --col-light-black : #333333;
 }
 
 .resume-btn {
@@ -32,8 +35,42 @@
 }
 
 .banner-section {
-  height: 900px;
   background: var(--col-blk);
+}
+
+.col-white {
+  color: var(--col-white);
+}
+
+.skill-section {
+    background-color: var(--col-light-black);
+}
+
+.card-custom {
+    background-color: var(--col-blk) !important;
+    border: none;
+    border-radius: 10px;
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.card-title-custom {
+    color: #f06292;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #ddd;
+    font-size: 0.95rem;
 }
 
 .content-box h2, .content-box p {
@@ -55,4 +92,95 @@
     height: 370px !important;
     width: 370px;
     object-fit: cover;
+}
+
+.about-section {
+  background: var(--col-light-black);
+}
+
+.underline {
+  height: 5px !important;
+  color:var(--col-red);
+  width: 65px;
+  text-align: end;
+  margin: 0 auto;
+}
+ 
+/* .square-image  {
+  height: ;
+} */
+
+.banner_img_2 {
+  height: 350px !important;
+  width: 350px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.skill-cards, .project-cards {
+  padding-bottom: 7rem;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.project-img-placeholder {
+  background-color: #ccc;
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-title {
+  color: #f06292;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  color: #ddd;
+  font-size: 0.95rem;
+}
+
+.project-tech-badge {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.project-section, .contact-us-section {
+  background-color: var(--col-light-black);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+.link:hover {
+  color: #e2d7d7;
+}
+
+.fs-17px {
+  font-size: 17px;
+}
+
+.text-pink {
+  color: var(--col-red);
+}
+
+.footer-section {
+  background-color: var(--col-blk);
 }
